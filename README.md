@@ -9,6 +9,9 @@ Objective
 The goal of this project is to make the data behind hashtag activism accessible, actionable, and visually engaging, fostering a deeper understanding of the causes shaping our world. By empowering users with this knowledge, the platform aims to inspire informed conversations and participation in social movements.
 
 Features
+
 Interactive Map: Visualizes hashtag activism across regions and time periods.
+
 Filters and Summaries: Allows users to filter movements by year and category, with easy-to-read summaries for each hashtag.
+
 Localized Insights: Offers meaningful context tailored to specific movements, helping users grasp the broader impact of activism.
