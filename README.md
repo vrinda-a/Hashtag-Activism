@@ -2,6 +2,8 @@
 
 Accessible at https://vrinda-a.github.io/Hashtag-Activism/
 
+Demo video available https://www.loom.com/share/14991fb0620b4d5a88db502c1d4c9c31?sid=6b88495b-cdca-4a23-90f0-e65544e27c1c
+
 A platform that transforms hashtag activism data into clear, accessible insights to highlight movements and empower civic engagement.
 
 
