@@ -1,0 +1,207 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f2e9;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #f7f2e9;
+    color: #4d3b2c;
+    padding: 20px;
+  }
+  
+  .year-selector {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .year-btn {
+    background-color: #f7f2e9;
+    border: 1px solid #d9cbb7;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 15px;
+    color: #4d3b2c;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .year-btn:hover {
+    background-color: #d9cbb7;
+    transform: scale(1.05);
+  }
+  
+  .main-container {
+    display: flex;
+    height: 90vh;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #e4d3c5;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    color: #4d3b2c;
+  }
+  
+  .category-btn {
+    background-color: #d9cbb7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    color: #4d3b2c;
+    transition: background-color 0.3s;
+  }
+  
+  .category-btn:hover {
+    background-color: #f7f2e9;
+  }
+  
+  #map {
+    flex-grow: 1;
+  }
+  
+  .map-tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .map-tooltip.visible {
+    opacity: 1;
+  }
+  
+  .custom-popup {
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.popup-content {
+    padding: 10px;
+}
+
+.popup-content h3 {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.popup-content .hashtag {
+    color: #0066cc;
+    margin: 4px 0;
+}
+
+.popup-content .description {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.popup-content .metadata {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.popup-content .category,
+.popup-content .year {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.popup-content .impact {
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.filter-tag {
+  background: #d9cbb7;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.filter-tag button {
+  background: none;
+  border: none;
+  mar/* General Body Styles */
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+  }
+  
+  /* Header Styles */
+  header {
+      height: 60px;
+      padding: 10px;
+      background-color: #f7f2e9;
+      text-align: center;
+  }
+  
+  /* Main Container Styles */
+  .main-container {
+      position: absolute;
+      top: 80px; /* Height of header + padding */
+      bottom: 0;
+      width: 100%;
+      display: flex;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+      width: 300px;
+      background-color: #e4d3c5;
+      padding: 20px;
+      overflow-y: auto;
+  }
+  
+  /* Map Container Styles */
+  #map {
+      position: absolute;
+      left: 340px; /* Width of sidebar + padding */
+      right: 0;
+      top: 0;
+      bottom: 0;
+  }
+  
+  /* Filter Group and Tag Styles */
+  .filter-group {
+      margin-bottom: 15px;
+  }
+  
+  select[multiple] {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .filter-tag {
+      background: #d9cbb7;
+      padding: 5px;
+      margin: 5px;
+      border-radius: 4px;
+      display: inline-block;
+  }
+
+}
+#generated-summary {
+  display: block;
+  color: #000; /* Ensure text is visible */
+  font-size: 16px; /* Ensure text is readable */
+}

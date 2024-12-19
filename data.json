@@ -1,0 +1,13 @@
+{
+    "2011": {
+      "USA": { "lat": 37.0902, "lng": -95.7129, "hashtags": ["#OccupyWallStreet"] },
+      "Egypt": { "lat": 26.8206, "lng": 30.8025, "hashtags": ["#Jan25"] }
+    },
+    "2012": {
+      "India": { "lat": 20.5937, "lng": 78.9629, "hashtags": ["#MeToo"] }
+    },
+    "2024": {
+      "Global": { "lat": 0, "lng": 0, "hashtags": ["#FridaysForFuture"] }
+    }
+  }
+  
